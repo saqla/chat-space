@@ -32,7 +32,7 @@
 
 |Column|Type|Options|
 |------|----|-------|
-|g_name|string|index: true, unique: true|
+|name|string|index: true, unique: true|
 
 ### Association
 
