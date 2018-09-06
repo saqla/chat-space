@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-get 'massages'    =>    'massages#index'
+  root 'massages#index'
+  get 'massages'    =>    'massages#index'
 end

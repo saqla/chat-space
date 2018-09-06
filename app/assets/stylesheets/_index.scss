@@ -1,0 +1,50 @@
+.contents {
+  width: 100%;
+}
+
+.left-contents {
+  width: 300px;
+  color: $sideFontColor
+}
+
+.user-info {
+  background-color: #253141;
+  height: 50px;
+  font-weight: bold;
+  line-height: 16px;
+  padding: 35px 20px 0;
+}
+
+.user-info_name {
+  background-color: #253141;
+  float: left;
+}
+
+.user-info_edit {
+  background-color: #253141;
+  float: right;
+}
+
+.side-bar {
+  background-color: #2f3e51;
+  height: 100vw;
+  padding: 20px;
+}
+
+.side-bar_group {
+  font-size: 15px;
+  padding-top: 20px;
+}
+
+.side-bar_tweet {
+  font-size: 11px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+.right-contents {
+  background-color: blue;
+  width: calc(100vw - 300px);
+  float: right;
+
+}
